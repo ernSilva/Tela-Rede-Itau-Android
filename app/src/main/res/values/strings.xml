@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Tela Itau</string>
+    <string name="title_activity_lista_rede">ListaRedeActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="userNameTextView">Maquininha sem fio a partir de 69,90/mês no aluguel</string>
+    <string name="userNameTextView2">Ótima parceria para acompanhar seus negocios em todos os lugares</string>
+    <string name="dife">diferenciais</string>
+    <string name="disc">discrição</string>
+    <string name="carac">caracteristicas</string>
+    <string name="band">bandeiras</string>
+    <string name="toolbar">Maquininha sem fio</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
