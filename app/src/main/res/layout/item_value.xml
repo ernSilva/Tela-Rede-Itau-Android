@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="410dp"
+        android:layout_height="165dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="410dp"
+            android:layout_height="166dp">
+
+            <TextView
+                android:id="@+id/value_maquininha"
+                android:layout_width="275dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/maquininha"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/value_fio" />
+
+            <TextView
+                android:id="@+id/value_cool"
+                android:layout_width="272dp"
+                android:layout_height="34dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/cool"
+                android:textAlignment="viewStart"
+                android:textColor="#050505"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/value_maquininha" />
+
+            <TextView
+                android:id="@+id/value"
+                android:layout_width="76dp"
+                android:layout_height="17dp"
+                android:layout_marginStart="192dp"
+                android:layout_marginTop="2dp"
+                android:text="@string/value"
+                android:textAlignment="textStart"
+                android:textColor="#0973C6"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/value_maquininha"
+                app:layout_constraintTop_toTopOf="@+id/value_maquininha" />
+
+            <TextView
+                android:id="@+id/value_fio"
+                android:layout_width="314dp"
+                android:layout_height="35dp"
+                android:text="@string/app_name"
+                android:textAlignment="textStart"
+                android:textColor="#020202"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

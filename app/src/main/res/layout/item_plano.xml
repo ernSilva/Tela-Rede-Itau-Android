@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="411dp"
+        android:layout_height="334dp"
+        app:cardBackgroundColor="#EBC8C4C4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/rounded_corner">
+
+            <TextView
+                android:id="@+id/disp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/dispo"
+                android:textColor="#0E0E0E"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView"
+                android:layout_width="250dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/rounded_corner"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/disp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/pad"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/rounded_corner">
+
+                    <TextView
+                        android:id="@+id/padr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginTop="16dp"
+                        android:text="@string/padr"
+                        android:textColor="#6378EC"
+                        android:textSize="10sp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/padr_txt"
+                        android:layout_width="121dp"
+                        android:layout_height="21dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="4dp"
+                        android:text="@string/padr_txt"
+                        android:textColor="#2B2828"
+                        android:textSize="8sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/padr" />
+
+                    <TextView
+                        android:id="@+id/padr_veja"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="4dp"
+                        android:text="@string/padr_veja"
+                        android:textSize="8sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/padr_txt" />
+
+                    <TextView
+                        android:id="@+id/padr_alg"
+                        android:layout_width="52dp"
+                        android:layout_height="11dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/padr_alg"
+                        android:textColor="#252323"
+                        android:textSize="8sp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/padr_veja" />
+
+                    <TextView
+                        android:id="@+id/padr_value"
+                        android:layout_width="50dp"
+                        android:layout_height="9dp"
+                        android:layout_marginStart="44dp"
+                        android:layout_marginTop="4dp"
+                        android:text="@string/value"
+                        android:textColor="#6378EC"
+                        android:textSize="8sp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toEndOf="@+id/padr_veja"
+                        app:layout_constraintTop_toBottomOf="@+id/padr_txt" />
+
+                    <TextView
+                        android:id="@+id/padr_tx"
+                        android:layout_width="57dp"
+                        android:layout_height="21dp"
+                        android:layout_marginStart="44dp"
+                        android:layout_marginTop="4dp"
+                        android:text="@string/padr_tx"
+                        android:textAlignment="textStart"
+                        android:textColor="#3E3939"
+                        android:textSize="8sp"
+                        app:layout_constraintStart_toEndOf="@+id/padr_alg"
+                        app:layout_constraintTop_toBottomOf="@+id/padr_value" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cond"
+                android:layout_width="250dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                app:cardBackgroundColor="#2549A6"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="37dp"
+                        android:layout_height="36dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/cond_txt"
+                        app:srcCompat="@drawable/credit_card_machine" />
+
+                    <TextView
+                        android:id="@+id/cond_txt"
+                        android:layout_width="163dp"
+                        android:layout_height="47dp"
+                        android:layout_marginStart="56dp"
+                        android:layout_marginTop="16dp"
+                        android:text="@string/cond_txt"
+                        android:textColor="#FFFFFF"
+                        android:textSize="8sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/cond_veja"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="56dp"
+                        android:layout_marginTop="16dp"
+                        android:text="@string/cond_veja"
+                        android:textColor="#FFFFFF"
+                        android:textSize="10sp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/cond_txt" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
