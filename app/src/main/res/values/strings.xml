@@ -1,18 +1,33 @@
 <resources>
-    <string name="app_name">Tela Itau</string>
-    <string name="title_activity_lista_rede">ListaRedeActivity</string>
+    <string name="app_name">maquininha sem fio</string>
+    <string name="title_activity_maquininha_rede">MaquininhaRedeActivity</string>
+    <string name="maquininha">Maquininha sem fio a partir de
+                            \u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020
+                            \u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020
+                            no aluguel</string>
+    <string name="value">R$69,90/mês</string>
+    <string name="cool">ótima para acompanhar seus negócios em todos os lugares</string>
+    <string name="conta">★ conta certa itaú</string>
+    <string name="dif">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\Diferenciais</string>
+    <string name="disc">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\Descrição</string>
+    <string name="carac">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\Caracteristicas</string>
+    <string name="band">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\Bandeiras aceitas</string>
+    <string name="dispo">Plano disponivel</string>
+    <string name="padr">Plano padrão</string>
+    <string name="padr_txt">você sabe o valor das taxas por venda,
+                            não importa o quanto fature por mês</string>
+    <string name="padr_veja">veja os valores</string>
+    <string name="padr_alg">aluguel</string>
+    <string name="padr_tx">+ taxa por venda realizada</string>
+    <string name="cond_txt">escolha o recebimento de vendas a crédito em 02 dias
+                            úteis e não pague mais taxa de antecipação. Não é oferta
+                            nem promoção, essa condição não tem data para acabar</string>
+    <string name="cond_veja">veja as condições</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
-    <string name="userNameTextView">Maquininha sem fio a partir de 69,90/mês no aluguel</string>
-    <string name="userNameTextView2">Ótima parceria para acompanhar seus negocios em todos os lugares</string>
-    <string name="dife">diferenciais</string>
-    <string name="disc">discrição</string>
-    <string name="carac">caracteristicas</string>
-    <string name="band">bandeiras</string>
-    <string name="toolbar">Maquininha sem fio</string>
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>

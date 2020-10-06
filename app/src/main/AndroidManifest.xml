@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="br.com.telaitau">
+    package="br.com.listarede">
 
     <application
         android:allowBackup="true"
@@ -10,8 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".ListaRedeActivity"
-            android:label="@string/title_activity_lista_rede"
+            android:name=".ui.activity.MaquininhaRedeActivity"
+            android:label="@string/title_activity_maquininha_rede"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

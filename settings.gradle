@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "Tela Itau"
+rootProject.name = "ListaRede"
